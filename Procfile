@@ -1,1 +1,1 @@
-web: gunicorn calefaccion: app
+web: gunicorn calefaccion:app
