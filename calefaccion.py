@@ -4,7 +4,7 @@ import py_eureka_client.eureka_client as eureka_client
 app = Flask(__name__)
 
 rest_port = 8001
-eureka_client.init(eureka_server="http://localhost:8099/",
+eureka_client.init(eureka_server="http://52.73.98.2:8099/eureka/",
                    app_name="calefaccion-service",
                    instance_port=rest_port)
 
