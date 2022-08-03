@@ -1,2 +1,1 @@
-web: python calefaccion.py
-worker: python calefaccion.py 
+web: gunicorn calefaccion: app
